@@ -1,0 +1,24 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+.header {
+  background: #202020;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+#map {
+  height: calc(100vh - 80px);
+  width: 100%;
+}
+footer {
+  text-align: center;
+  padding: 5px;
+  background: #f0f0f0;
+}
+.leaflet-popup-content {
+  font-size: 14px;
+}
